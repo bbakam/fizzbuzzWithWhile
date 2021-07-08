@@ -5,7 +5,11 @@ public class FizzBuzz {
     For numbers which are multiples of both three and five print “FizzBuzz
      */
     public static void main(String[] args) {
-        for (int i = 1; i <= 100; i++) {
+        // bakary kamara //
+
+        int i = 0;
+        while (i < 100) {
+            i++;
             if (isBothAMultiplyOfThreeAndFive(i)) {
                 System.out.println("FizzBuzz");
             } else if (isMultiplyOfFive(i)) {
